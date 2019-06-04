@@ -1,6 +1,6 @@
 # Batch application
 
-This is a batch application, it will run every X seconds to process/convert audio files from sfx, 3gp, flat, etc (extensions) to mp3 and next, save them into the file system and send a confirmation email.
+This is a batch application, it will run every X seconds to process/convert audio files from sfx, 3gp, flat, etc (extensions) to mp3 and next, save them into the file system. After the audio has been processed, sends a confirmation email.
 
 ## Version 1
 
@@ -44,7 +44,7 @@ This application was created using:
 
 2) Go to `batch` folder and execute:
 
-```
+```bash
 mvn clean install
 java -jar ./target/batch-1.0.jar
 ```
