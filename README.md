@@ -1,6 +1,6 @@
 # Batch application
 
-This is a batch application, it will run every X seconds to process audios, convert audio files from sfx, 3gp, flat, etc to mp3 and next, save then into the file system and send an email for confirmation.
+This is a batch application, it will run every X seconds to process/convert audio files from sfx, 3gp, flat, etc (extensions) to mp3 and next, save them into the file system and send a confirmation email.
 
 ## Version 1
 
